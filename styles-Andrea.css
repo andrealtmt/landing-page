@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;    
+    border: 1px solid rgb(179, 245, 220);
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Header*/
+header {
+    background-color: #1f2937;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: #eee;    
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* MAIN */
+/* section 1*/
+.hero-header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    gap: 2rem;
+}
+
+.hero-header img {
+    width: 40%;
+}
+
+.hero-text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    width: 40%;
+    padding: 5rem 0;    
+}
+
+.hero-text-and-button h1 {
+    font-size: 3rem;
+}
+
+.hero-text-and-button p {
+    font-size: 1rem;
+    font-weight: 300;
+}

@@ -1,69 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing page</title>
 </head>
+
 <body>
-    <header>
+    <header class="logo-and-nav">
         <nav>
+            <div class="logo">Header logo</div>
             <ul>
-                <li><a href="#">Header Logo</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">header link one</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">header link two</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">header link three</a></li>
+                <li><a href="#">link one</a></li>
+                <li><a href="#">link two</a></li>
+                <li><a href="#">link three</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur architecto cupiditate eius consectetur eum, repellat expedita qui corporis.</p>
-            <button>Sign up</button>
-            <div>this is a placeholder for an image</div>
-        </article>
-
-        <article>
-            <h2>Some random information</h2>
-            <div class="squares-container">
-                <div class="blue-square"></div>
-                <p class="blue-square-caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
-
-                <div class="blue-square"></div>
-                <p class="blue-square-caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
-
-                <div class="blue-square"></div>
-                <p class="blue-square-caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
-
-                <div class="blue-square"></div>
-                <p class="blue-square-caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
+        <section class="hero-header">
+            <div class="hero-text-and-button">
+                <h1>This website is awesome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur architecto cupiditate eius
+                    consectetur eum, repellat expedita qui corporis.</p>
+                <button class="hero-button">Sign up</button>
             </div>
-        </article>
+            <img class="hero-img" src="img/1.jpg" alt="Un paisaje italiano" width="500px">
+        </section>
 
-        <article>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus excepturi, consequatur dolor asperiores ab impedit corporis amet unde, at explicabo ea similique quo molestias fuga labore porro veritatis maxime magni.</p>
-            <p>-Jake, Cool author</p>
-        </article>
+        <section class="more-info">
+            <header>
+                <h2>Some random information</h2>
+            </header>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-image" src="img/2.jpg" alt="">
+                    <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic
+                        ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
+                </div>
 
-        <article>
-            <div>
-                <h5>Call to action! It's time</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button>Sign up</button>
+                <div class="card">
+                    <img class="card-image" src="img/3.jpg" alt="">
+                    <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic
+                        ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="img/4.jpg" alt="">
+                    <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic
+                        ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="img/5.jpg" alt="">
+                    <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ea hic
+                        ullam obcaecati provident aperiam numquam. Neque, reiciendis sint.</p>
+                </div>
             </div>
-        </article>
+        </section>
+
+        <section class="quote">
+            <div class="quote-container">
+                <p class="quote-text">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+                    excepturi,
+                    consequatur dolor
+                    asperiores ab impedit corporis amet unde, at explicabo ea similique quo molestias fuga labore porro
+                    veritatis maxime magni."</p>
+                <span>—Jake, Cool author</span>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="cta-container">
+                <div class="cta-heading-and-text">
+                    <p class="cta-heading">Call to action! It's time</p>
+                    <p class="cta-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <button class="cta-button">Sign up</button>
+            </div>
+        </section>
 
         <footer>
-            <p>Copyright &copy; Andrea Ro</p>
+            <div class="copyright-text">
+                <p>Copyright &copy; Andrea Ro</p>
+            </div>
         </footer>
     </main>
-    
+
 </body>
+
 </html>
